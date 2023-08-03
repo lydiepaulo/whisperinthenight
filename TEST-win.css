@@ -322,6 +322,7 @@
 	margin-bottom: -35px;
 	padding: 10px 0 0;
 	margin-left: 0;
+	background: none;
 }
 
 .post-head:hover h2.topic-title {
