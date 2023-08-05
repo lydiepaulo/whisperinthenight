@@ -28,6 +28,7 @@
 #newsareal1 {
     	display: grid;
     	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
     	padding-bottom: var(--spacing);
     	overflow: auto;
     	height: 54px;
@@ -44,7 +45,6 @@
 #newsareal1 div.topic-title-container {
 	position: relative;
 	display: block !important;
-	margin: 1px 2px 10px;
 	padding: 5px 5px 5px 8px;
 	border-radius: var(--radius);
 	border: 1px solid transparent;
