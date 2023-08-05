@@ -29,7 +29,7 @@
     	display: grid;
     	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
-    	padding-bottom: var(--spacing);
+	padding: 0 3px var(--spacing) 0;
     	overflow: auto;
     	height: 54px;
 }
