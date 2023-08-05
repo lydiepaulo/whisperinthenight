@@ -29,8 +29,8 @@
     	display: grid;
     	grid-template-columns: repeat(3, 1fr);
     	padding-bottom: var(--spacing);
-    	height: 54px;
     	overflow: auto;
+    	height: 54px;
 }
 
 #newsareal1 {
