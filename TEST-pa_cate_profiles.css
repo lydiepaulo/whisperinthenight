@@ -97,7 +97,7 @@
 	padding-left: 30px;
 }
 
-#newsareal1>div:first-child {
+#newsareal1 .topic-title-container:first-of-type {
     display: none !important;
 }
 
