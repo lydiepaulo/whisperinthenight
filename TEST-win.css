@@ -1720,3 +1720,86 @@ u#users_online {
 	display: flex !important;
 	align-items: center;
 }
+
+/* fiche PRÉSENTATION */
+.pz3 {
+	margin: 0 auto;
+	width: 550px;
+	background-image: linear-gradient(to right, var(--base-3), var(--base-3)),
+		url(https://www.aht.li/3727410/motif.png), var(--body-img);
+	background-size: cover;
+	border-radius: var(--radius);
+	overflow: hidden;
+}
+.pz3_ic {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.pz3_entete {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px 40px;
+	background: var(--base-2);
+}
+.pz3_entete.first {
+	border-bottom: 1px solid var(--base-1);
+}
+.pz3_entete.last {
+	border-top: 1px solid var(--base-1);
+}
+.pz3_entete > * {
+	width: 100%;
+}
+.pz3_left,
+.pz3_right {
+	width: 100%;
+	padding: var(--spacing);
+	border-bottom: 1px solid var(--base-1);
+}
+.pz3_left {
+	height: 200px;
+}
+.pz3_cols {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.pz3_right {
+	height: 300px;
+}
+.chr_item {
+	display: grid;
+	grid-template-columns: 10px 1fr;
+	gap: var(--spacing);
+}
+.chr_item::before,
+.chr_item::after {
+	content: '';
+	display: block;
+	grid-row: 1;
+	grid-column: 1;
+}
+.chr_item::before {
+	z-index: 1;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var(--co-gradient);
+}
+.chr_item::after {
+	width: 1px;
+	height: calc(100% + 50px);
+	justify-self: center;
+	background: var(--co-gradient);
+}
+.pz3_bott {
+	padding: var(--spacing);
+}
+.chr_item:last-of-type::after {
+	height: 100%;
+}
+.pz3_ann {
+	height: 300px;
+}
